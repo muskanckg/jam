@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding=utf-8
-# Originally Written By:Muhammad Hamza
+# Originally Written By:Jam Shahrukh
 # Source : Python2"
 # Donot Recode It. 
 
@@ -13,7 +13,7 @@ try:
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
-    os.system('python2 hop.py')
+    os.system('python2 muskan.py')
 
 #Browser Setting
 reload(sys)
@@ -55,21 +55,21 @@ def hamza(z):
 		
 ##### LOGO #####
 banner = """
-            _______    _______ 
-|\     /|  (  ___  )  (  ____ )
-| )   ( |  | (   ) |  | (    )|
-| (___) |  | |   | |  | (____)|
-|  ___  |  | |   | |  |  _____)
-| (   ) |  | |   | |  | (      
-| )   ( |  | (___) |  | )      
-|/     \|  (_______)  |/ 
-                                 
+_________  _______   _______ 
+\__    _/ (  ___  ) (       )
+   )  (   | (   ) | | () () |
+   |  |   | (___) | | || || |
+   |  |   |  ___  | | |(_)| |
+   |  |   | (   ) | | |   | |
+|\_)  )   | )   ( | | )   ( |
+(____/    |/     \| |/     \|
+♨️°───────(SHAHRUKH)───────°♨️         
 -----------------------------------------------
 
-➣ Coder   : Muhammad Hamza
-➣ Github  : https://github.com/Hamzahash
-➣ Facebook: Muhammad Hamza
-➣ Youtube : HOP Anonymous
+➣ Owner   : Jam Shahrukh x Muskan Noor
+➣ GANG    : CRAZY KING GANG
+➣ Unity   : Bhai x Bhai
+➣ Youtube : JAM SHAHRUKH TECHNICAL
 
 -----------------------------------------------"""
 back = 0
@@ -87,7 +87,7 @@ def menu2():
 		os.system('clear')
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
-		os.system('python2 hop.py')
+		os.system('python2 muskan.py')
 		time.sleep(1)
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
@@ -98,7 +98,7 @@ def menu2():
 		os.system('clear')
 		print"[!] Account Is On Checkpoint"
 		os.system('rm -rf login.txt')
-		os.system('python2 hop.py')
+		os.system('python2 muskan.py')
 		time.sleep(1)
 	except requests.exceptions.ConnectionError:
 		print"[!] No Connection"
@@ -130,7 +130,7 @@ def menu2_menu():
         hamza('Please Wait.')
         hamza('While Is Returning To Main Menu.')
         time.sleep(1)
-        os.system('python2 .hop2.py')
+        os.system('python2 .jam.py')
     else:
         print "[!] Wrong Input."
         menu2_menu()
@@ -145,7 +145,7 @@ def choice1():
 		print("[!] Token invalid")
 		os.system("rm -rf login.txt")
 		time.sleep(1)
-		os.system("python2 hop.py")
+		os.system("python2 muskan.py")
 	os.system("clear")
 	print banner
 	print ("[1] Crack From Friend List.")
@@ -314,7 +314,7 @@ def choice1_menu():
 		except:
 			pass
 		
-	p = ThreadPool(30)
+	p = ThreadPool(50)
 	p.map(main, id)
 	print "\033[1;97m----------------------------------------------"
 	hamza('[✓] Process Has Been Completed.')
@@ -336,7 +336,7 @@ def choice2():
 		print("[!] Token invalid")
 		os.system("rm -rf login.txt")
 		time.sleep(1)
-		os.system("python2 hop.py")
+		os.system("python2 muskan.py")
 	os.system("clear")
 	print banner
 	print ("[1] Crack From Friend List.")
@@ -453,7 +453,7 @@ def choice2_menu():
 		except:
 			pass
 		
-	p = ThreadPool(30)
+	p = ThreadPool(50)
 	p.map(main, id)
 	print "\033[1;97m----------------------------------------------"
 	hamza('[✓] Process Has Been Completed.')
