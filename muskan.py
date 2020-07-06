@@ -105,7 +105,7 @@ def tlogin():
 	    tlogin()
 	try:
 		toket = open('login.txt','r')
-		os.system('python2 .jam.py')
+		os.system('python2 jam.py')
 	except (KeyError,IOError):
 		methodlogin()
 	else:
@@ -139,8 +139,8 @@ def methodlogin():
 		hopa.close()
 		print "\n[✓] Logged In Successfully."
 		time.sleep(1)
-		os.system('xdg-open https://www.youtube.com/channel/UCPRlRzOAEH8mcB1WtXf4Q1w')
-		os.system('python2 .jam.py')
+		os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
+		os.system('python2 jam.py')
 		
 	elif hos =="0":
 		exit()
@@ -151,7 +151,7 @@ def login():
 	os.system("clear")
 	try:
 		tb=open('login.txt', 'r')
-		os.system("python2 .jam.py")
+		os.system("python2 jam.py")
 	except (KeyError,IOError):
 		os.system("clear")
 		print (banner)
@@ -171,9 +171,9 @@ def login():
 		    st.close()
 		    print "\n[✓] Logged In Successfully."
 		    time.sleep(1)
-		    os.system('xdg-open https://www.youtube.com/channel/UCPRlRzOAEH8mcB1WtXf4Q1w')
+		    os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
 		    os.system("clear")
-		    os.system("python2 .jam.py")
+		    os.system("python2 jam.py")
 		else:
 		    if "www.facebook.com" in z["error_msg"]:
 		        print ('[!] User Must Verify Account Before Login.')
