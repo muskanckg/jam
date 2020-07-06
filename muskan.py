@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding=utf-8
-# Originally Written By:Muhammad Hamza
+# Originally Written By:Jam Shahrukh
 # Source : Python2"
 # Donot Recode It. 
 
@@ -13,7 +13,7 @@ try:
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
-    os.system('python2 hop.py')
+    os.system('python2 muskan.py')
 
 #Browser Setting
 reload(sys)
@@ -53,21 +53,21 @@ def hamza(z):
 		time.sleep(0.03)
 ##### LOGO #####
 banner = """
-            _______    _______ 
-|\     /|  (  ___  )  (  ____ )
-| )   ( |  | (   ) |  | (    )|
-| (___) |  | |   | |  | (____)|
-|  ___  |  | |   | |  |  _____)
-| (   ) |  | |   | |  | (      
-| )   ( |  | (___) |  | )      
-|/     \|  (_______)  |/ 
-                                 
+_________  _______   _______ 
+\__    _/ (  ___  ) (       )
+   )  (   | (   ) | | () () |
+   |  |   | (___) | | || || |
+   |  |   |  ___  | | |(_)| |
+   |  |   | (   ) | | |   | |
+|\_)  )   | )   ( | | )   ( |
+(____/    |/     \| |/     \|
+♨️°───────(SHAHRUKH)───────°♨️       
 -----------------------------------------------
 
-➣ Coder   : Muhammad Hamza
-➣ Github  : https://github.com/Hamzahash
-➣ Facebook: Muhammad Hamza
-➣ Youtube : HOP Anonymous
+➣ Owner   : Jam Shahrukh x Muskan Noor
+➣ GANG    : CRAZY KING GANG
+➣ Unity   : Bhai x Bhai
+➣ Youtube : Jam Shahrukh Technical
 
 -----------------------------------------------"""
 # titik #
@@ -83,7 +83,7 @@ def tlogin():
 	os.system('clear')
 	print banner
 	username = raw_input("[+] TOOL USERNAME: ")
-	if username =="hamza":
+	if username =="jam":
 	    os.system('clear')
 	    print banner
 	    print "[✓] TOOL USERNAME: "+username+ " (correct)"
@@ -93,7 +93,7 @@ def tlogin():
 	    tlogin()
 	    
 	passw = raw_input("[+] TOOL PASSWORD: ")
-	if passw =="1626":
+	if passw =="muskan":
 	    os.system('clear')
 	    print banner
 	    print "[✓] TOOL USERNAME: " +username+ " (correct)"
@@ -105,7 +105,7 @@ def tlogin():
 	    tlogin()
 	try:
 		toket = open('login.txt','r')
-		os.system('python2 .hop2.py')
+		os.system('python2 .jam.py')
 	except (KeyError,IOError):
 		methodlogin()
 	else:
@@ -140,7 +140,7 @@ def methodlogin():
 		print "\n[✓] Logged In Successfully."
 		time.sleep(1)
 		os.system('xdg-open https://www.youtube.com/channel/UCPRlRzOAEH8mcB1WtXf4Q1w')
-		os.system('python2 .hop2.py')
+		os.system('python2 .jam.py')
 		
 	elif hos =="0":
 		exit()
@@ -151,7 +151,7 @@ def login():
 	os.system("clear")
 	try:
 		tb=open('login.txt', 'r')
-		os.system("python2 .hop2.py")
+		os.system("python2 .jam.py")
 	except (KeyError,IOError):
 		os.system("clear")
 		print (banner)
@@ -173,7 +173,7 @@ def login():
 		    time.sleep(1)
 		    os.system('xdg-open https://www.youtube.com/channel/UCPRlRzOAEH8mcB1WtXf4Q1w')
 		    os.system("clear")
-		    os.system("python2 .hop2.py")
+		    os.system("python2 .jam.py")
 		else:
 		    if "www.facebook.com" in z["error_msg"]:
 		        print ('[!] User Must Verify Account Before Login.')
