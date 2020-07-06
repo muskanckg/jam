@@ -130,7 +130,7 @@ def menu2_menu():
         hamza('Please Wait.')
         hamza('While Is Returning To Main Menu.')
         time.sleep(1)
-        os.system('python2 .jam.py')
+        os.system('python2 jam.py')
     else:
         print "[!] Wrong Input."
         menu2_menu()
