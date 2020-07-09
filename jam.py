@@ -369,7 +369,7 @@ def crack_menu():
 		except:
 			pass
 		
-	p = ThreadPool(50)
+	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;97m----------------------------------------------"
 	hamza('[✓] Process Has Been Completed.')
